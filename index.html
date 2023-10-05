@@ -26,7 +26,7 @@
 
     <!-- Remove this and fill in your name & photo in the required areas -->
     <script>
-      fetch('profilepic,picture')
+      fetch('https://randomuser.me/api/?inc=name,picture')
         .then((response) => response.json())
         .then(({ results }) => results[0])
         .then(({ name, picture }) => {
