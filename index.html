@@ -35,7 +35,7 @@
             '.navbar-brand'
           ).innerText = `${name.first} ${name.last}`
           document.title = `${name.first} ${name.last} Personal Site`
-          document.querySelector('#profilepic').src = "images/Nate.jpg"
+          document.querySelector('#profilepic').src = picture.large
         })
     </script>
 
@@ -43,7 +43,7 @@
     <link href="styles/styles.css" rel="stylesheet" />
 
     <!-- Set Page Title Here -->
-    <title>Nate's Page</title>
+    <title>Nate Holt</title>
   </head>
 
   <body>
@@ -69,7 +69,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#projects"
-                >Projects</a
+                >About Me</a
               >
             </li>
             <li class="nav-item">
@@ -99,27 +99,26 @@
           class="rounded-circle"
           draggable="false"
           id="profilepic"
-          src = "images/Nate.jpg"
+          src = "images\Nate.jpg"
         />
       </div>
       <div class="row mx-auto">
-        <h4 class="h1 font-weight-bold mx-auto text-center">
-          <!-- Set Name Here -->
-          Hi <iconify-icon icon="twemoji:waving-hand"></iconify-icon>I'm Nate Holt!
-        </h4>
+      <h4 class="h1 font-weight-bold mx-auto text-center">
+    Welcome to Nabaa's Page!
+      </h4>
       </div>
       <div class="row mx-auto">
         <h5 class="h5 mx-auto text-center text-opacity-75 text-primary">
-          Information Science & Technology Student at Temple University
+          Senior Studying Information Science & Technology Student at Temple University
         </h5>
       </div>
       <div class="row my-4 language-wrapper row-gap-5 col-gap-1 gap-lg-2">
         <div class="col text-center">
           <img
-            src="images/python.jpg"
+            src="C:\Users\mbm24\OneDrive\Desktop\sql.png"
             data-bs-toggle="tooltip"
             data-placement="top"
-            title="Python"
+            title="SQL"
           />
         </div>
         <div class="col text-center">
@@ -204,25 +203,27 @@
       id="projects"
     >
       <div class="row mx-auto">
-        <h4 class="h1 font-weight-bold mx-auto text-center">Projects</h4>
+        <h4 class="h1 font-weight-bold mx-auto text-center">About Me</h4>
       </div>
       <div class="row mx-auto">
         <h5 class="h5 mx-auto text-opacity-75 text-primary text-center mb-4">
-          I've worked on some neat things.
+          A little bit about me:
         </h5>
       </div>
       <div class="row w-100">
-        <h5>Inspiro for Esperanza</h5>
+        <h5>Internship Experience</h5>
       </div>
       <div class="row w-100 mb-4">
         <p class="text-justify">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus
-          nisi in neque blandit auctor. Vestibulum pellentesque fringilla nulla
-          quis sagittis. Donec id erat sodales, fringilla est non, vestibulum
-          tellus. Suspendisse potenti. Fusce et dolor blandit, tincidunt eros
-          non, pharetra orci. Donec massa neque, suscipit at purus ac, cursus
-          tincidunt purus. Suspendisse imperdiet massa nec sem dictum luctus.
-          Vestibulum at porta lectus, sed faucibus libero.
+        As a Data Science Intern at NJ Transit from June to August 2023, 
+          I collaborated on data analysis projects that optimized Public Transportation outcomes. 
+          I used statistical techniques, Python, and R to achieve a 40% reduction in operational 
+          costs through regression analysis and predictive analytics. 
+          Power Business Intelligence improved data communication, boosting efficiency by 15% 
+          and customer satisfaction by 10%. SQL queries uncovered cost-saving opportunities 
+          in maintenance operations, reducing costs by over 10%. I also enhanced data 
+          retrieval speed by 30% through SQL Developer Oracle, enabling quicker 
+          and more informed decision-making.
         </p>
       </div>
       <div class="row w-100">
